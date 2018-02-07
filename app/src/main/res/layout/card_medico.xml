@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btnLinear"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@drawable/card"
+    android:elevation="0dp"
+    android:orientation="horizontal"
+    android:padding="13dp">
+
+
+    <TextView
+        android:id="@+id/lbl_nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome Médico"
+        android:textColor="@color/colorTexto"
+        android:textSize="18dp"
+        android:textStyle="bold|italic" />
+
+
+    <!--TextView
+        android:id="@+id/lbl_area"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Especialização"
+        android:textColor="@color/colorTexto"
+        android:layout_below="@id/lbl_nome"/-->
+
+    <TextView
+        android:id="@+id/lbl_convenio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Convenio"
+        android:textColor="@color/colorTexto"
+        android:layout_below="@+id/lbl_nome"
+        />
+
+
+    <TextView
+        android:id="@+id/lbl_consultorio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Consultorio"
+        android:textAlignment="viewStart"
+        android:layout_below="@+id/lbl_convenio"
+        android:textColor="@color/colorTexto" />
+
+
+</RelativeLayout>

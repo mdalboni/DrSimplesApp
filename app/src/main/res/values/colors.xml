@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#43A047</color>
+    <color name="colorPrimaryDark">#2E7D32</color>
+    <color name="colorAccent">#4CAF50</color>
+    <color name="colorAccentOpacity">#aa4caf50</color>
+    <color name="colorCard">#69f0ae</color>
+    <color name="colorBgCard">#c8e6c9</color>
+    <color name="colorBackground">#FF000000</color>
+    <color name="colorTexto">#FF000000</color>
+    <color name="colorBrancoFundo">#FFFFFFFF</color>
+
+    <!--CORES EXAMES E CONSULTAS-->
+    <color name="colorConfirmado">#697fff</color>
+    <color name="colorEmEspera">#fff200</color>
+    <color name="colorFaltou">#ff0000</color>
+    <color name="colorCancelado">#b7b7b7</color>
+    <color name="colorRealizado">#69f0ae</color>
+
+</resources>

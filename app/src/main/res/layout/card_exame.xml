@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btnLinear"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@drawable/card"
+    android:elevation="0dp"
+    android:orientation="vertical"
+    android:padding="13dp">
+
+
+    <TextView
+        android:id="@+id/lbl_laboratorio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome"
+        android:textColor="@color/colorTexto"
+        android:textSize="18dp"
+        android:textStyle="bold|italic" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/lbl_protocolo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Protocolo"
+            android:textColor="@color/colorTexto" />
+
+        <TextView
+            android:id="@+id/lbl_situacao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Situacao"
+            android:textAlignment="textEnd"
+            android:textColor="@color/colorTexto" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/lbl_senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Senha"
+        android:textAlignment="viewStart"
+        android:textColor="@color/colorTexto" />
+
+    <TextView
+        android:id="@+id/lbl_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data"
+        android:textAlignment="viewStart"
+        android:textColor="@color/colorTexto" />
+
+</LinearLayout>

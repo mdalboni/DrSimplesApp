@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btnLinear"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@drawable/card"
+    android:elevation="0dp"
+    android:orientation="vertical"
+    android:padding="13dp">
+
+
+    <TextView
+        android:id="@+id/lbl_nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome"
+        android:textColor="@color/colorTexto"
+
+
+        android:textSize="18dp"
+        android:textStyle="bold|italic" />
+
+    <!--android:shadowColor="@color/colorBackground"
+        android:shadowDx="8"
+        android:shadowDy="8"
+        android:shadowRadius="8"-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/lbl_rua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Rua"
+            android:textColor="@color/colorTexto" />
+
+        <TextView
+            android:id="@+id/lbl_bairro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bairro"
+            android:textColor="@color/colorTexto" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/lbl_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cidade"
+            android:textAlignment="viewStart"
+            android:textColor="@color/colorTexto"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:id="@+id/lbl_estado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Estado"
+            android:textAlignment="viewEnd"
+            android:textColor="@color/colorTexto" />
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lbl_especialidade"
+        android:text="Especialidade"/>
+
+
+</LinearLayout>

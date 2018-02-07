@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">DrMed</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">E-mail</string>
+    <string name="prompt_password">Senha</string>
+    <string name="action_sign_in">Conectar</string>
+    <string name="action_sign_in_short">Conectar</string>
+    <string name="action_register">Registrar</string>
+    <string name="error_invalid_email">E-mail invalido</string>
+    <string name="error_invalid_password">Senha muito curta</string>
+    <string name="error_incorrect_password">Senha incorreta</string>
+    <string name="error_field_required">Campo necessario</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_consultas">Consultas</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="cad_nome">Nome*</string>
+    <string name="cad_nome_social">Nome Social</string>
+    <string name="cad_telefone">Numero p/ contato*</string>
+    <string name="cad_email">E-mail*</string>
+    <string name="cad_sexo">Sexo*</string>
+    <string name="cad_cpf">CPF*</string>
+    <string name="cad_dtnasc">Data de Nascimento*</string>
+    <string name="cad_rg">RG</string>
+    <string name="cad_orgao">Orgão Expedidor</string>
+    <string name="cad_cep">CEP*</string>
+    <string name="cad_endereco">Endereço*</string>
+    <string name="cad_numero">Número*</string>
+    <string name="cad_complemento">Complemento</string>
+    <string name="cad_bairro">Bairro*</string>
+    <string name="cad_cidade">Cidade*</string>
+    <string name="cad_estado">Estado*</string>
+    <string name="cad_mae">Mãe</string>
+    <string name="cad_pai">Pai</string>
+    <string name="title_activity_convenios">ConveniosActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_cadastro_exame">CadastroExame</string>
+    <string name="title_activity_exames">Exames</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_data_consulta">DataConsultaActivity</string>
+
+
+</resources>

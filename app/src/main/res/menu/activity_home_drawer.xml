@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/grp1" android:checkableBehavior="single" >
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_consulta"
+            android:icon="@drawable/ic_assignment_ind_black_20dp"
+            android:title="Consulta" />
+
+        <item
+            android:id="@+id/nav_exames"
+            android:icon="@drawable/ic_menu_exame_24dp"
+            android:title="Exames" />
+
+        <item
+            android:id="@+id/nav_acesso"
+            android:icon="@drawable/ic_vpn_key_black_24dp"
+            android:title="Liberar Acesso" />
+
+    </group>
+
+    <group android:id="@+id/grp2" android:checkableBehavior="single" >
+        <item
+            android:id="@+id/nav_convenios"
+            android:icon="@drawable/ic_recent_actors_black_24dp"
+            android:title="Convênios" />
+
+        <item
+            android:id="@+id/nav_alterar"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Alterar Dados" />
+
+        <item
+            android:id="@+id/nav_senha"
+            android:icon="@drawable/ic_enhanced_encryption_black_24dp"
+            android:title="Alterar Senha" />
+    </group>
+
+    <group android:id="@+id/grp3" android:checkableBehavior="single" >
+        <item
+            android:id="@+id/nav_sair"
+            android:icon="@drawable/ic_logout"
+            android:title="Desconectar" />
+    </group>
+
+
+</menu>
